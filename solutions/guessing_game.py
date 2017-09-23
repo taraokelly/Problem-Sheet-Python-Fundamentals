@@ -6,7 +6,7 @@ incorrect_inputs = []
 correct = 0;
 guess_cnt = 0;
 
-#get user input, analyse input and print result
+# Get user input, analyse input and print result
 
 while correct == 0:
     x = input("Enter a number: ")
