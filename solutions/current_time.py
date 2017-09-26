@@ -2,7 +2,7 @@
 # Emerging Technologies, Year 4, Software Development, GMIT.
 
 # Problem set: Python fundamentals
-# 1. Write a program that prints the current time and date to the console.
+# 2. Write a program that prints the current time and date to the console.
 
 # https://docs.python.org/3/library/datetime.html
 import datetime
