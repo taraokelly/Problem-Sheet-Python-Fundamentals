@@ -10,15 +10,14 @@
 import math
 # https://docs.python.org/2/library/decimal.html
 from decimal import *
-getcontext().prec = 20
 
 # Loop Newton's square root equation 10 times
 def newton_square_root(x,z):
-    count = 0
-    while count > 10:
+    d = 1
+    while d > 0.0001:
         z_next = z - ((z*z-x)/(2*z))
+        d = abs(z-z_next)
         z = z_next
-        count +=1
     return z
 
 # Get user input
